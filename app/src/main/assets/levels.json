@@ -383,7 +383,7 @@
         "cols": 7,
         "rows": 8
       },
-      "timerSec": 90,
+      "timerSec": 110,
       "targetSunReward": 140,
       "badge": "hope",
       "badgeCount": 1207,
@@ -412,7 +412,7 @@
         "cols": 7,
         "rows": 8
       },
-      "timerSec": 85,
+      "timerSec": 125,
       "targetSunReward": 150,
       "badge": "love",
       "badgeCount": 1142,
@@ -441,7 +441,7 @@
         "cols": 7,
         "rows": 8
       },
-      "timerSec": 80,
+      "timerSec": 120,
       "targetSunReward": 160,
       "badge": "strength",
       "badgeCount": 1078,
@@ -470,7 +470,7 @@
         "cols": 7,
         "rows": 8
       },
-      "timerSec": 75,
+      "timerSec": 135,
       "targetSunReward": 170,
       "badge": "courage",
       "badgeCount": 1024,
@@ -499,7 +499,7 @@
         "cols": 7,
         "rows": 9
       },
-      "timerSec": 70,
+      "timerSec": 130,
       "targetSunReward": 180,
       "badge": "peace",
       "badgeCount": 962,
@@ -529,7 +529,7 @@
         "cols": 7,
         "rows": 9
       },
-      "timerSec": 70,
+      "timerSec": 170,
       "targetSunReward": 190,
       "badge": "light",
       "badgeCount": 895,
@@ -559,7 +559,7 @@
         "cols": 7,
         "rows": 9
       },
-      "timerSec": 65,
+      "timerSec": 165,
       "targetSunReward": 200,
       "badge": "bloom",
       "badgeCount": 847,
@@ -589,7 +589,7 @@
         "cols": 7,
         "rows": 10
       },
-      "timerSec": 65,
+      "timerSec": 145,
       "targetSunReward": 210,
       "badge": "spark",
       "badgeCount": 783,
@@ -620,7 +620,7 @@
         "cols": 7,
         "rows": 10
       },
-      "timerSec": 60,
+      "timerSec": 140,
       "targetSunReward": 220,
       "badge": "glow",
       "badgeCount": 721,
@@ -651,7 +651,7 @@
         "cols": 7,
         "rows": 10
       },
-      "timerSec": 60,
+      "timerSec": 160,
       "targetSunReward": 230,
       "badge": "dream",
       "badgeCount": 660,
@@ -682,7 +682,7 @@
         "cols": 7,
         "rows": 10
       },
-      "timerSec": 50,
+      "timerSec": 150,
       "targetSunReward": 250,
       "badge": "voyage",
       "badgeCount": 555,
@@ -713,7 +713,7 @@
         "cols": 5,
         "rows": 10
       },
-      "timerSec": 60,
+      "timerSec": 160,
       "targetSunReward": 260,
       "badge": "ember",
       "badgeCount": 512,
@@ -744,7 +744,7 @@
         "cols": 7,
         "rows": 9
       },
-      "timerSec": 55,
+      "timerSec": 155,
       "targetSunReward": 270,
       "badge": "mist",
       "badgeCount": 478,
@@ -774,7 +774,7 @@
         "cols": 7,
         "rows": 9
       },
-      "timerSec": 60,
+      "timerSec": 160,
       "targetSunReward": 280,
       "badge": "dawn",
       "badgeCount": 444,
@@ -804,7 +804,7 @@
         "cols": 7,
         "rows": 10
       },
-      "timerSec": 60,
+      "timerSec": 170,
       "targetSunReward": 290,
       "badge": "dusk",
       "badgeCount": 412,
@@ -835,7 +835,7 @@
         "cols": 7,
         "rows": 8
       },
-      "timerSec": 55,
+      "timerSec": 165,
       "targetSunReward": 300,
       "badge": "river",
       "badgeCount": 383,
@@ -864,7 +864,7 @@
         "cols": 7,
         "rows": 10
       },
-      "timerSec": 55,
+      "timerSec": 160,
       "targetSunReward": 310,
       "badge": "ocean",
       "badgeCount": 359,
@@ -895,7 +895,7 @@
         "cols": 7,
         "rows": 9
       },
-      "timerSec": 55,
+      "timerSec": 155,
       "targetSunReward": 320,
       "badge": "summit",
       "badgeCount": 331,
@@ -925,7 +925,7 @@
         "cols": 7,
         "rows": 8
       },
-      "timerSec": 55,
+      "timerSec": 155,
       "targetSunReward": 330,
       "badge": "canyon",
       "badgeCount": 308,
@@ -954,7 +954,7 @@
         "cols": 6,
         "rows": 10
       },
-      "timerSec": 55,
+      "timerSec": 155,
       "targetSunReward": 340,
       "badge": "forest",
       "badgeCount": 286,
@@ -985,7 +985,7 @@
         "cols": 7,
         "rows": 10
       },
-      "timerSec": 55,
+      "timerSec": 155,
       "targetSunReward": 350,
       "badge": "desert",
       "badgeCount": 265,
@@ -1016,7 +1016,7 @@
         "cols": 7,
         "rows": 10
       },
-      "timerSec": 55,
+      "timerSec": 155,
       "targetSunReward": 360,
       "badge": "tundra",
       "badgeCount": 247,
@@ -1047,7 +1047,7 @@
         "cols": 7,
         "rows": 9
       },
-      "timerSec": 50,
+      "timerSec": 150,
       "targetSunReward": 370,
       "badge": "aurora",
       "badgeCount": 224,
@@ -1077,7 +1077,7 @@
         "cols": 6,
         "rows": 10
       },
-      "timerSec": 50,
+      "timerSec": 150,
       "targetSunReward": 380,
       "badge": "eclipse",
       "badgeCount": 203,
@@ -1108,7 +1108,7 @@
         "cols": 7,
         "rows": 10
       },
-      "timerSec": 45,
+      "timerSec": 145,
       "targetSunReward": 400,
       "badge": "nebula",
       "badgeCount": 187,
@@ -1139,7 +1139,7 @@
         "cols": 7,
         "rows": 10
       },
-      "timerSec": 40,
+      "timerSec": 140,
       "targetSunReward": 500,
       "badge": "zenith",
       "badgeCount": 100,
