@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Animal Match</string>
+
+    <string name="level_label_fmt">Level %1$d</string>
+    <string name="time_fmt">%1$02d:%2$02d</string>
+    <string name="clear_all_tiles">Clear all tiles</string>
+    <string name="continue_btn">Continue</string>
+    <string name="level_complete">Level Complete!</string>
+    <string name="sun_plus_fmt">+%1$d</string>
+    <string name="next_btn">Next</string>
+    <string name="replay_cd">Replay</string>
+    <string name="pause_cd">Pause</string>
+    <string name="close_cd">Close</string>
+    <string name="locked_banner_fmt">Complete Lv. %1$d to unlock a new feature.</string>
+    <string name="feature_unlocked_fmt">%1$s unlocked!</string>
+    <string name="tiles_cant_be_connected">Tiles can\'t be connected by over 3 lines</string>
+    <string name="times_up">Time\'s up!</string>
+    <string name="retry_btn">Retry</string>
+    <string name="hint_cd">Hint</string>
+    <string name="bomb_cd">Bomb</string>
+    <string name="shuffle_cd">Shuffle</string>
+    <string name="play_level_fmt">Level %1$d</string>
+    <string name="locked_toast_fmt">Locked — complete level %1$d first</string>
+    <string name="no_hints_left">No hints left</string>
+    <string name="no_bombs_left">No bombs left</string>
+    <string name="no_shuffles_left">No shuffles left</string>
+    <string name="no_moves_available">No moves available</string>
+    <string name="pause_resume">Resume</string>
+    <string name="pause_quit">Quit</string>
+
+    <!-- XP / player level -->
+    <string name="xp_chip_fmt">Lv %1$d</string>
+    <string name="xp_hero_fmt">Lv %1$d  ·  %2$d / %3$d XP</string>
+    <string name="xp_level_up_fmt">Level Up! Lv %1$d</string>
+
+    <!-- Booster shop -->
+    <string name="shop_title">Refill boosters</string>
+    <string name="shop_subtitle">Spend coins to top up.</string>
+    <string name="shop_owned_fmt">Owned: %1$d</string>
+    <string name="shop_buy_fmt">+%1$d  ·  %2$d</string>
+    <string name="shop_close">Close</string>
+    <string name="shop_not_enough_coins">Not enough coins</string>
+    <string name="shop_purchased_fmt">+%1$d %2$s</string>
+    <string name="shop_hints">hints</string>
+    <string name="shop_bombs">bombs</string>
+    <string name="shop_shuffles">shuffles</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Resources referenced reflectively via `Resources.getIdentifier(name, type, pkg)`. R8/
+  shrinkResources cannot see these references, so without this keep file the entire tile
+  drawable set, the badge mascots, and the SFX raw audio would be stripped on release.
+
+  • drawable-nodpi/{bird,fruit_a,fruit_b,veg}_*  → tile faces loaded by AssetCache from JSON.
+  • drawable/badge_*                              → badge mascot drawables resolved by name.
+  • raw/sfx_*                                     → sound effect files looked up by SoundManager.
+-->
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:keep="@drawable/bird_*,@drawable/fruit_a_*,@drawable/fruit_b_*,@drawable/veg_*,@drawable/badge_*,@raw/sfx_*,@raw/levels"
+    tools:discard="" />

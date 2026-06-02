@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Full-screen background art -->
+    <ImageView
+        android:id="@+id/bgImage"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@null"
+        android:scaleType="centerCrop"
+        android:src="@drawable/game_space_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Top HUD row 1: pause, level label, timer, sun/coin chips -->
+    <ImageButton
+        android:id="@+id/hudPause"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="12dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/pause_cd"
+        android:padding="6dp"
+        android:src="@drawable/ic_pause"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/levelLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="Level 1"
+        android:textColor="@color/text_light"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/hudPause"
+        app:layout_constraintStart_toEndOf="@id/hudPause"
+        app:layout_constraintTop_toTopOf="@id/hudPause"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/timerFireIcon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="12dp"
+        android:src="@drawable/ic_fire"
+        app:layout_constraintBottom_toBottomOf="@id/timerBar"
+        app:layout_constraintStart_toEndOf="@id/levelLabel"
+        app:layout_constraintTop_toTopOf="@id/timerBar" />
+
+    <ProgressBar
+        android:id="@+id/timerBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="0dp"
+        android:layout_height="14dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/bg_timer_track"
+        android:max="100"
+        android:progress="100"
+        android:progressDrawable="@drawable/bg_timer_fill"
+        app:layout_constraintBottom_toBottomOf="@id/hudPause"
+        app:layout_constraintEnd_toStartOf="@id/sunChip"
+        app:layout_constraintStart_toEndOf="@id/timerFireIcon"
+        app:layout_constraintTop_toTopOf="@id/hudPause" />
+
+    <TextView
+        android:id="@+id/sunChip"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginEnd="6dp"
+        android:background="@drawable/bg_chip_dark"
+        android:drawableStart="@drawable/ic_sun"
+        android:drawablePadding="4dp"
+        android:gravity="center"
+        android:paddingStart="8dp"
+        android:paddingEnd="10dp"
+        android:text="1187"
+        android:textColor="@color/text_light"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/hudPause"
+        app:layout_constraintEnd_toStartOf="@id/coinChip"
+        app:layout_constraintTop_toTopOf="@id/hudPause"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/coinChip"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginEnd="6dp"
+        android:background="@drawable/bg_chip_dark"
+        android:drawableStart="@drawable/ic_coin"
+        android:drawablePadding="4dp"
+        android:gravity="center"
+        android:paddingStart="8dp"
+        android:paddingEnd="10dp"
+        android:text="50"
+        android:textColor="@color/text_light"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/hudPause"
+        app:layout_constraintEnd_toStartOf="@id/buyChip"
+        app:layout_constraintTop_toTopOf="@id/hudPause"
+        tools:ignore="HardcodedText" />
+
+    <ImageButton
+        android:id="@+id/buyChip"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginEnd="12dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/sun_plus_fmt"
+        android:src="@drawable/ic_plus"
+        app:layout_constraintBottom_toBottomOf="@id/hudPause"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/hudPause" />
+
+    <!-- Sun-energy badge below buyChip -->
+    <LinearLayout
+        android:id="@+id/sunEnergyBadge"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/bg_chip_yellow"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/buyChip">
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:src="@drawable/ic_sun" />
+
+        <TextView
+            android:id="@+id/sunEnergyText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="57"
+            android:textColor="@color/text_dark"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+    <!-- Invalid-move toast banner (hidden by default) -->
+    <TextView
+        android:id="@+id/invalidToast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/bg_locked_banner"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/tiles_cant_be_connected"
+        android:textColor="@color/path_red"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/sunEnergyBadge" />
+
+    <!-- Game board -->
+    <com.datawaves.animalmatch.ui.play.GameBoardView
+        android:id="@+id/boardView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@id/powerupRow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/sunEnergyBadge" />
+
+    <!-- Power-up row at bottom -->
+    <LinearLayout
+        android:id="@+id/powerupRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <!-- Hint -->
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp">
+
+            <ImageButton
+                android:id="@+id/btnHint"
+                android:layout_width="@dimen/powerup_size"
+                android:layout_height="@dimen/powerup_size"
+                android:background="@drawable/bg_powerup_button"
+                android:contentDescription="@string/hint_cd"
+                android:padding="14dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_hint" />
+
+            <TextView
+                android:id="@+id/btnHintCount"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_gravity="top|end"
+                android:background="@drawable/bg_powerup_counter"
+                android:gravity="center"
+                android:text="3"
+                android:textColor="@color/text_light"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+        </FrameLayout>
+
+        <!-- Bomb -->
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp">
+
+            <ImageButton
+                android:id="@+id/btnBomb"
+                android:layout_width="@dimen/powerup_size"
+                android:layout_height="@dimen/powerup_size"
+                android:background="@drawable/bg_powerup_button"
+                android:contentDescription="@string/bomb_cd"
+                android:padding="14dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_bomb" />
+
+            <TextView
+                android:id="@+id/btnBombCount"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_gravity="top|end"
+                android:background="@drawable/bg_powerup_counter"
+                android:gravity="center"
+                android:text="1"
+                android:textColor="@color/text_light"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+        </FrameLayout>
+
+        <!-- Shuffle -->
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp">
+
+            <ImageButton
+                android:id="@+id/btnShuffle"
+                android:layout_width="@dimen/powerup_size"
+                android:layout_height="@dimen/powerup_size"
+                android:background="@drawable/bg_powerup_button"
+                android:contentDescription="@string/shuffle_cd"
+                android:padding="14dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_shuffle" />
+
+            <TextView
+                android:id="@+id/btnShuffleCount"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_gravity="top|end"
+                android:background="@drawable/bg_powerup_counter"
+                android:gravity="center"
+                android:text="2"
+                android:textColor="@color/text_light"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+        </FrameLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

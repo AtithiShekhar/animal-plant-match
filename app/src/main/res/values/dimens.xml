@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="hud_height">56dp</dimen>
+    <dimen name="tile_size">44dp</dimen>
+    <dimen name="tile_gap">4dp</dimen>
+    <dimen name="node_size">52dp</dimen>
+    <dimen name="popup_radius">28dp</dimen>
+    <dimen name="button_radius">28dp</dimen>
+    <dimen name="chip_radius">22dp</dimen>
+    <dimen name="powerup_size">64dp</dimen>
+    <dimen name="badge_size">160dp</dimen>
+</resources>

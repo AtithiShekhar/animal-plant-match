@@ -1,0 +1,1167 @@
+{
+  "version": 1,
+  "themes": {
+    "fruit_a": {
+      "label": "Orchard",
+      "tiles": [
+        "fruit_a_01",
+        "fruit_a_02",
+        "fruit_a_03",
+        "fruit_a_04",
+        "fruit_a_05",
+        "fruit_a_06",
+        "fruit_a_07",
+        "fruit_a_08",
+        "fruit_a_09",
+        "fruit_a_10",
+        "fruit_a_11",
+        "fruit_a_12",
+        "fruit_a_13",
+        "fruit_a_14",
+        "fruit_a_15",
+        "fruit_a_16",
+        "fruit_a_17",
+        "fruit_a_18",
+        "fruit_a_19",
+        "fruit_a_20",
+        "fruit_a_21",
+        "fruit_a_22",
+        "fruit_a_23",
+        "fruit_a_24",
+        "fruit_a_25"
+      ]
+    },
+    "fruit_b": {
+      "label": "Harvest",
+      "tiles": [
+        "fruit_b_01",
+        "fruit_b_02",
+        "fruit_b_03",
+        "fruit_b_04",
+        "fruit_b_05",
+        "fruit_b_06",
+        "fruit_b_07",
+        "fruit_b_08",
+        "fruit_b_09"
+      ]
+    },
+    "birds": {
+      "label": "Sky Song",
+      "tiles": [
+        "bird_owl",
+        "bird_chick",
+        "bird_chicken",
+        "bird_dove",
+        "bird_duck",
+        "bird_eagle",
+        "bird_flamingo",
+        "bird_honeybee",
+        "bird_hummingbird",
+        "bird_parrot",
+        "bird_peacock",
+        "bird_pigeon",
+        "bird_rooster",
+        "bird_sparrow",
+        "bird_swan",
+        "bird_turkey",
+        "bird_woodpecker",
+        "bird_bat",
+        "bird_butterfly",
+        "bird_crow",
+        "bird_dodo"
+      ]
+    },
+    "veges": {
+      "label": "Greens",
+      "tiles": [
+        "veg_arugula",
+        "veg_beets",
+        "veg_bittergourd",
+        "veg_bokchoy",
+        "veg_broccoli",
+        "veg_cabbage",
+        "veg_carrot",
+        "veg_cauliflower",
+        "veg_collardgreen",
+        "veg_corn",
+        "veg_cucumber",
+        "veg_eggplant",
+        "veg_elephantfoot",
+        "veg_fenugreek",
+        "veg_garlic",
+        "veg_ginger",
+        "veg_greenbean",
+        "veg_kale",
+        "veg_leeks",
+        "veg_lettuce",
+        "veg_mushroom",
+        "veg_okra",
+        "veg_onion",
+        "veg_peas",
+        "veg_pepper",
+        "veg_potato",
+        "veg_pumpkin",
+        "veg_radicchio",
+        "veg_radish",
+        "veg_rutabaga",
+        "veg_spinach",
+        "veg_squash",
+        "veg_sweetpotato",
+        "veg_tomato",
+        "veg_turnip",
+        "veg_whitemushroom",
+        "veg_zucchini"
+      ]
+    }
+  },
+  "badges": [
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "drawable": "veg_broccoli"
+    },
+    {
+      "id": "joy",
+      "label": "Joy",
+      "drawable": "fruit_a_10"
+    },
+    {
+      "id": "harmony",
+      "label": "Harmony",
+      "drawable": "bird_dove"
+    },
+    {
+      "id": "energy",
+      "label": "Energy",
+      "drawable": "bird_honeybee"
+    },
+    {
+      "id": "hope",
+      "label": "Hope",
+      "drawable": "veg_tomato"
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "drawable": "fruit_b_07"
+    },
+    {
+      "id": "strength",
+      "label": "Strength",
+      "drawable": "bird_eagle"
+    },
+    {
+      "id": "courage",
+      "label": "Courage",
+      "drawable": "bird_rooster"
+    },
+    {
+      "id": "peace",
+      "label": "Peace",
+      "drawable": "bird_swan"
+    },
+    {
+      "id": "light",
+      "label": "Light",
+      "drawable": "bird_butterfly"
+    },
+    {
+      "id": "bloom",
+      "label": "Bloom",
+      "drawable": "veg_pumpkin"
+    },
+    {
+      "id": "spark",
+      "label": "Spark",
+      "drawable": "bird_parrot"
+    },
+    {
+      "id": "glow",
+      "label": "Glow",
+      "drawable": "bird_flamingo"
+    },
+    {
+      "id": "dream",
+      "label": "Dream",
+      "drawable": "bird_owl"
+    },
+    {
+      "id": "voyage",
+      "label": "Voyage",
+      "drawable": "bird_peacock"
+    },
+    {
+      "id": "ember",
+      "label": "Ember",
+      "drawable": "veg_pepper"
+    },
+    {
+      "id": "mist",
+      "label": "Mist",
+      "drawable": "bird_pigeon"
+    },
+    {
+      "id": "dawn",
+      "label": "Dawn",
+      "drawable": "fruit_a_05"
+    },
+    {
+      "id": "dusk",
+      "label": "Dusk",
+      "drawable": "bird_owl"
+    },
+    {
+      "id": "river",
+      "label": "River",
+      "drawable": "veg_fenugreek"
+    },
+    {
+      "id": "ocean",
+      "label": "Ocean",
+      "drawable": "fruit_a_01"
+    },
+    {
+      "id": "summit",
+      "label": "Summit",
+      "drawable": "bird_eagle"
+    },
+    {
+      "id": "canyon",
+      "label": "Canyon",
+      "drawable": "veg_pumpkin"
+    },
+    {
+      "id": "forest",
+      "label": "Forest",
+      "drawable": "veg_broccoli"
+    },
+    {
+      "id": "desert",
+      "label": "Desert",
+      "drawable": "veg_corn"
+    },
+    {
+      "id": "tundra",
+      "label": "Tundra",
+      "drawable": "bird_swan"
+    },
+    {
+      "id": "aurora",
+      "label": "Aurora",
+      "drawable": "bird_peacock"
+    },
+    {
+      "id": "eclipse",
+      "label": "Eclipse",
+      "drawable": "bird_crow"
+    },
+    {
+      "id": "nebula",
+      "label": "Nebula",
+      "drawable": "fruit_b_03"
+    },
+    {
+      "id": "zenith",
+      "label": "Zenith",
+      "drawable": "bird_butterfly"
+    }
+  ],
+  "levels": [
+    {
+      "id": 1,
+      "theme": "fruit_a",
+      "grid": {
+        "cols": 6,
+        "rows": 5
+      },
+      "timerSec": 120,
+      "targetSunReward": 100,
+      "badge": "wisdom",
+      "badgeCount": 1611,
+      "powerups": {
+        "hint": 3,
+        "bomb": 1,
+        "shuffle": 2
+      },
+      "unlocksFeature": null,
+      "uniqueFaces": 6,
+      "layout": [
+        ". 5 3 3 6 1",
+        "2 . 2 6 3 .",
+        "5 4 1 5 6 2",
+        "4 6 4 4 1 3",
+        "1 . . . 5 2"
+      ]
+    },
+    {
+      "id": 2,
+      "theme": "fruit_a",
+      "grid": {
+        "cols": 6,
+        "rows": 6
+      },
+      "timerSec": 110,
+      "targetSunReward": 110,
+      "badge": "joy",
+      "badgeCount": 1542,
+      "powerups": {
+        "hint": 3,
+        "bomb": 1,
+        "shuffle": 2
+      },
+      "unlocksFeature": null,
+      "uniqueFaces": 8,
+      "layout": [
+        "4 7 . 8 5 .",
+        "1 6 6 . 1 2",
+        "4 2 8 3 5 4",
+        "4 . 5 1 7 2",
+        "5 3 3 7 6 7",
+        ". 3 6 . 2 1"
+      ]
+    },
+    {
+      "id": 3,
+      "theme": "birds",
+      "grid": {
+        "cols": 6,
+        "rows": 7
+      },
+      "timerSec": 100,
+      "targetSunReward": 120,
+      "badge": "harmony",
+      "badgeCount": 1438,
+      "powerups": {
+        "hint": 3,
+        "bomb": 1,
+        "shuffle": 2
+      },
+      "unlocksFeature": "bomb",
+      "uniqueFaces": 10,
+      "layout": [
+        "4 8 1 9 1 2",
+        ". 8 3 3 5 5",
+        "3 7 7 1 . .",
+        "9 6 2 10 6 4",
+        "8 7 7 5 . 6",
+        "2 4 5 . 1 2",
+        "8 6 3 10 . 4"
+      ]
+    },
+    {
+      "id": 4,
+      "theme": "birds",
+      "grid": {
+        "cols": 7,
+        "rows": 7
+      },
+      "timerSec": 90,
+      "targetSunReward": 130,
+      "badge": "energy",
+      "badgeCount": 1326,
+      "powerups": {
+        "hint": 2,
+        "bomb": 2,
+        "shuffle": 2
+      },
+      "unlocksFeature": null,
+      "uniqueFaces": 10,
+      "layout": [
+        "10 6 10 6 5 . .",
+        ". . . 2 4 9 8",
+        "9 4 3 1 8 10 .",
+        ". 7 7 8 6 1 .",
+        "3 10 7 3 5 6 9",
+        "4 1 5 9 . 1 2",
+        "2 3 8 7 2 5 4"
+      ]
+    },
+    {
+      "id": 5,
+      "theme": "veges",
+      "grid": {
+        "cols": 7,
+        "rows": 8
+      },
+      "timerSec": 90,
+      "targetSunReward": 140,
+      "badge": "hope",
+      "badgeCount": 1207,
+      "powerups": {
+        "hint": 2,
+        "bomb": 2,
+        "shuffle": 2
+      },
+      "unlocksFeature": "shuffle",
+      "uniqueFaces": 12,
+      "layout": [
+        "11 . 11 9 12 12 3",
+        "10 7 5 3 . 6 7",
+        "11 . 9 5 . 4 6",
+        "5 2 1 8 4 10 7",
+        "2 3 8 4 1 10 2",
+        "9 7 . 8 6 2 3",
+        "1 . 4 8 1 9 11",
+        ". 12 . 6 12 5 10"
+      ]
+    },
+    {
+      "id": 6,
+      "theme": "veges",
+      "grid": {
+        "cols": 7,
+        "rows": 8
+      },
+      "timerSec": 85,
+      "targetSunReward": 150,
+      "badge": "love",
+      "badgeCount": 1142,
+      "powerups": {
+        "hint": 2,
+        "bomb": 2,
+        "shuffle": 3
+      },
+      "unlocksFeature": null,
+      "uniqueFaces": 13,
+      "layout": [
+        "7 10 2 11 11 12 6",
+        "8 9 2 . 7 4 10",
+        "12 5 12 9 1 4 3",
+        "8 3 . 3 4 . 11",
+        "5 7 6 13 12 2 9",
+        "9 7 4 13 5 1 6",
+        "6 8 10 11 3 1 1",
+        "5 13 8 2 . 10 13"
+      ]
+    },
+    {
+      "id": 7,
+      "theme": "fruit_b",
+      "grid": {
+        "cols": 7,
+        "rows": 8
+      },
+      "timerSec": 80,
+      "targetSunReward": 160,
+      "badge": "strength",
+      "badgeCount": 1078,
+      "powerups": {
+        "hint": 2,
+        "bomb": 2,
+        "shuffle": 3
+      },
+      "unlocksFeature": null,
+      "uniqueFaces": 9,
+      "layout": [
+        "6 5 2 4 9 5 1",
+        "7 8 4 8 2 2 3",
+        ". 6 4 8 . 7 3",
+        "8 8 9 3 7 5 1",
+        "4 6 . 3 2 8 7",
+        "6 . 3 9 5 5 1",
+        "1 3 6 9 7 4 2",
+        "6 1 1 7 5 2 4"
+      ]
+    },
+    {
+      "id": 8,
+      "theme": "fruit_a",
+      "grid": {
+        "cols": 7,
+        "rows": 8
+      },
+      "timerSec": 75,
+      "targetSunReward": 170,
+      "badge": "courage",
+      "badgeCount": 1024,
+      "powerups": {
+        "hint": 2,
+        "bomb": 2,
+        "shuffle": 3
+      },
+      "unlocksFeature": null,
+      "uniqueFaces": 14,
+      "layout": [
+        "7 3 5 9 2 13 2",
+        "3 6 2 11 8 9 10",
+        "3 5 5 14 13 8 7",
+        "6 1 9 12 12 5 12",
+        "6 1 10 14 10 13 11",
+        "13 10 14 11 8 8 1",
+        "11 7 4 9 4 14 2",
+        "1 12 4 3 7 6 4"
+      ]
+    },
+    {
+      "id": 9,
+      "theme": "birds",
+      "grid": {
+        "cols": 7,
+        "rows": 9
+      },
+      "timerSec": 70,
+      "targetSunReward": 180,
+      "badge": "peace",
+      "badgeCount": 962,
+      "powerups": {
+        "hint": 2,
+        "bomb": 2,
+        "shuffle": 3
+      },
+      "unlocksFeature": null,
+      "uniqueFaces": 15,
+      "layout": [
+        "13 9 15 7 4 10 5",
+        "8 13 6 5 5 14 15",
+        "11 1 13 6 4 8 9",
+        "12 4 12 13 2 3 10",
+        "11 . 7 15 2 14 15",
+        "2 1 4 12 11 7 8",
+        "3 7 1 12 . 9 14",
+        "2 10 . 9 6 1 11",
+        "14 3 3 5 6 10 8"
+      ]
+    },
+    {
+      "id": 10,
+      "theme": "veges",
+      "grid": {
+        "cols": 7,
+        "rows": 9
+      },
+      "timerSec": 70,
+      "targetSunReward": 190,
+      "badge": "light",
+      "badgeCount": 895,
+      "powerups": {
+        "hint": 2,
+        "bomb": 3,
+        "shuffle": 3
+      },
+      "unlocksFeature": "bigbomb",
+      "uniqueFaces": 15,
+      "layout": [
+        "8 15 9 13 13 2 13",
+        "12 12 . 10 2 10 11",
+        "1 9 11 15 9 1 4",
+        "5 7 2 15 4 12 12",
+        "15 3 6 3 14 5 5",
+        "11 7 6 10 3 7 13",
+        "6 4 2 6 14 9 .",
+        "3 11 5 14 8 14 8",
+        "4 1 . 8 7 1 10"
+      ]
+    },
+    {
+      "id": 11,
+      "theme": "fruit_a",
+      "grid": {
+        "cols": 7,
+        "rows": 9
+      },
+      "timerSec": 65,
+      "targetSunReward": 200,
+      "badge": "bloom",
+      "badgeCount": 847,
+      "powerups": {
+        "hint": 2,
+        "bomb": 3,
+        "shuffle": 3
+      },
+      "unlocksFeature": null,
+      "uniqueFaces": 15,
+      "layout": [
+        "6 8 6 12 3 12 11",
+        "14 7 13 4 5 15 6",
+        "14 4 11 7 5 15 5",
+        "6 . 4 7 13 11 2",
+        "10 12 1 1 2 9 1",
+        "3 12 7 10 1 9 2",
+        "3 5 15 2 13 10 11",
+        "8 . 3 4 10 15 9",
+        ". 8 13 14 9 14 8"
+      ]
+    },
+    {
+      "id": 12,
+      "theme": "veges",
+      "grid": {
+        "cols": 7,
+        "rows": 10
+      },
+      "timerSec": 65,
+      "targetSunReward": 210,
+      "badge": "spark",
+      "badgeCount": 783,
+      "powerups": {
+        "hint": 2,
+        "bomb": 3,
+        "shuffle": 3
+      },
+      "unlocksFeature": null,
+      "uniqueFaces": 17,
+      "layout": [
+        "3 7 4 17 5 15 7",
+        "11 3 2 15 6 12 17",
+        "2 16 7 6 . 14 12",
+        "5 12 . 13 15 10 9",
+        "8 11 1 14 14 13 16",
+        "2 7 15 9 2 4 10",
+        "1 4 6 3 16 8 3",
+        "10 11 1 9 4 10 14",
+        "17 8 13 11 5 8 6",
+        "1 13 5 12 17 9 16"
+      ]
+    },
+    {
+      "id": 13,
+      "theme": "birds",
+      "grid": {
+        "cols": 7,
+        "rows": 10
+      },
+      "timerSec": 60,
+      "targetSunReward": 220,
+      "badge": "glow",
+      "badgeCount": 721,
+      "powerups": {
+        "hint": 2,
+        "bomb": 3,
+        "shuffle": 3
+      },
+      "unlocksFeature": null,
+      "uniqueFaces": 17,
+      "layout": [
+        "3 13 11 4 11 14 1",
+        "15 3 8 3 5 14 8",
+        "1 2 12 14 13 15 6",
+        "15 17 12 10 10 13 17",
+        "6 5 7 10 2 5 17",
+        "16 11 9 9 8 4 6",
+        "12 13 15 16 4 1 2",
+        "4 1 10 11 16 7 1",
+        "16 12 3 14 9 1 2",
+        "17 7 5 7 6 9 8"
+      ]
+    },
+    {
+      "id": 14,
+      "theme": "fruit_b",
+      "grid": {
+        "cols": 7,
+        "rows": 10
+      },
+      "timerSec": 60,
+      "targetSunReward": 230,
+      "badge": "dream",
+      "badgeCount": 660,
+      "powerups": {
+        "hint": 1,
+        "bomb": 3,
+        "shuffle": 3
+      },
+      "unlocksFeature": null,
+      "uniqueFaces": 9,
+      "layout": [
+        "9 4 5 9 8 1 1",
+        "9 8 8 5 9 7 5",
+        "2 2 7 6 2 6 4",
+        "4 6 7 1 8 7 3",
+        "8 2 4 9 6 1 1",
+        "3 7 1 1 8 3 5",
+        "2 8 5 6 6 3 7",
+        "3 3 2 3 1 7 8",
+        "4 7 6 4 3 4 6",
+        "2 5 5 5 4 9 2"
+      ]
+    },
+    {
+      "id": 15,
+      "theme": "veges",
+      "grid": {
+        "cols": 7,
+        "rows": 10
+      },
+      "timerSec": 50,
+      "targetSunReward": 250,
+      "badge": "voyage",
+      "badgeCount": 555,
+      "powerups": {
+        "hint": 1,
+        "bomb": 3,
+        "shuffle": 3
+      },
+      "unlocksFeature": "finale",
+      "uniqueFaces": 17,
+      "layout": [
+        "12 14 6 16 10 8 17",
+        "13 2 12 9 15 7 13",
+        "15 10 17 2 1 14 16",
+        "3 7 10 11 3 16 9",
+        "3 12 5 9 1 8 9",
+        "15 10 17 8 5 15 16",
+        "13 3 4 12 4 6 4",
+        "6 11 7 5 2 4 6",
+        "11 14 2 11 13 14 1",
+        "1 8 5 1 17 1 7"
+      ]
+    },
+    {
+      "id": 16,
+      "theme": "fruit_b",
+      "grid": {
+        "cols": 5,
+        "rows": 10
+      },
+      "timerSec": 60,
+      "targetSunReward": 260,
+      "badge": "ember",
+      "badgeCount": 512,
+      "powerups": {
+        "hint": 1,
+        "bomb": 2,
+        "shuffle": 2
+      },
+      "unlocksFeature": null,
+      "uniqueFaces": 5,
+      "layout": [
+        ". 1 4 1 .",
+        ". 4 4 4 .",
+        ". 3 1 3 .",
+        ". 2 1 2 .",
+        ". 4 5 4 .",
+        ". 5 3 5 .",
+        ". 5 1 5 .",
+        ". 3 3 3 .",
+        ". 2 1 2 .",
+        ". 2 5 2 ."
+      ]
+    },
+    {
+      "id": 17,
+      "theme": "birds",
+      "grid": {
+        "cols": 7,
+        "rows": 9
+      },
+      "timerSec": 55,
+      "targetSunReward": 270,
+      "badge": "mist",
+      "badgeCount": 478,
+      "powerups": {
+        "hint": 1,
+        "bomb": 2,
+        "shuffle": 2
+      },
+      "unlocksFeature": null,
+      "uniqueFaces": 15,
+      "layout": [
+        "1 14 5 12 1 2 4",
+        "2 4 15 7 8 14 15",
+        "14 15 . 6 9 12 9",
+        "6 10 2 4 10 10 12",
+        "8 5 11 . 7 8 13",
+        "2 9 3 5 13 11 5",
+        "14 13 9 13 . 1 12",
+        "6 15 3 11 3 7 3",
+        "1 6 7 4 11 8 10"
+      ]
+    },
+    {
+      "id": 18,
+      "theme": "veges",
+      "grid": {
+        "cols": 7,
+        "rows": 9
+      },
+      "timerSec": 60,
+      "targetSunReward": 280,
+      "badge": "dawn",
+      "badgeCount": 444,
+      "powerups": {
+        "hint": 2,
+        "bomb": 2,
+        "shuffle": 2
+      },
+      "unlocksFeature": "freeze",
+      "uniqueFaces": 14,
+      "layout": [
+        ". 13 10 3 9 12 6",
+        "11 1 3 8 5 8 7",
+        "14 4 4 14 7 6 11",
+        "2 7 13 . 6 5 11",
+        "12 11 . . . 12 14",
+        "1 5 9 . 4 8 10",
+        "10 2 9 9 6 7 1",
+        "13 3 12 10 2 14 2",
+        "13 4 5 8 3 1 ."
+      ]
+    },
+    {
+      "id": 19,
+      "theme": "fruit_a",
+      "grid": {
+        "cols": 7,
+        "rows": 10
+      },
+      "timerSec": 60,
+      "targetSunReward": 290,
+      "badge": "dusk",
+      "badgeCount": 412,
+      "powerups": {
+        "hint": 2,
+        "bomb": 2,
+        "shuffle": 2
+      },
+      "unlocksFeature": null,
+      "uniqueFaces": 16,
+      "layout": [
+        ". 2 8 16 3 16 .",
+        "4 12 1 13 15 2 3",
+        "7 14 15 9 7 8 4",
+        ". 10 11 11 5 6 .",
+        "6 16 2 3 10 1 1",
+        "2 12 9 6 12 12 13",
+        "13 5 5 4 3 14 6",
+        "7 4 7 8 11 14 8",
+        "16 10 11 1 15 9 15",
+        ". 14 9 13 5 10 ."
+      ]
+    },
+    {
+      "id": 20,
+      "theme": "birds",
+      "grid": {
+        "cols": 7,
+        "rows": 8
+      },
+      "timerSec": 55,
+      "targetSunReward": 300,
+      "badge": "river",
+      "badgeCount": 383,
+      "powerups": {
+        "hint": 2,
+        "bomb": 2,
+        "shuffle": 2
+      },
+      "unlocksFeature": null,
+      "uniqueFaces": 13,
+      "layout": [
+        "1 4 7 . 7 4 1",
+        "3 4 8 11 8 4 3",
+        "6 12 3 2 3 12 6",
+        ". 11 5 13 5 11 .",
+        "10 8 2 2 2 8 10",
+        "1 10 7 13 7 10 1",
+        "12 5 6 11 6 5 12",
+        "9 13 9 . 9 13 9"
+      ]
+    },
+    {
+      "id": 21,
+      "theme": "veges",
+      "grid": {
+        "cols": 7,
+        "rows": 10
+      },
+      "timerSec": 55,
+      "targetSunReward": 310,
+      "badge": "ocean",
+      "badgeCount": 359,
+      "powerups": {
+        "hint": 2,
+        "bomb": 2,
+        "shuffle": 2
+      },
+      "unlocksFeature": null,
+      "uniqueFaces": 15,
+      "layout": [
+        "3 4 . 1 3 6 2",
+        "6 14 9 8 15 1 5",
+        "4 15 . 12 . 5 15",
+        "15 12 14 2 10 13 5",
+        "8 1 . 7 . 14 12",
+        "9 8 10 9 6 2 11",
+        "10 13 . 7 . 13 1",
+        "3 14 5 11 11 9 8",
+        "11 2 . 4 . 6 12",
+        "4 13 3 7 . 7 10"
+      ]
+    },
+    {
+      "id": 22,
+      "theme": "fruit_a",
+      "grid": {
+        "cols": 7,
+        "rows": 9
+      },
+      "timerSec": 55,
+      "targetSunReward": 320,
+      "badge": "summit",
+      "badgeCount": 331,
+      "powerups": {
+        "hint": 1,
+        "bomb": 3,
+        "shuffle": 3
+      },
+      "unlocksFeature": null,
+      "uniqueFaces": 16,
+      "layout": [
+        "13 3 10 7 2 4 11",
+        "15 13 1 9 5 12 9",
+        "1 6 16 7 8 10 5",
+        "3 8 14 11 4 12 6",
+        "2 5 15 . 12 1 6",
+        "2 7 13 10 1 14 8",
+        "7 5 14 12 4 16 15",
+        "10 9 11 9 8 15 14",
+        "13 4 6 3 3 11 2"
+      ]
+    },
+    {
+      "id": 23,
+      "theme": "birds",
+      "grid": {
+        "cols": 7,
+        "rows": 8
+      },
+      "timerSec": 55,
+      "targetSunReward": 330,
+      "badge": "canyon",
+      "badgeCount": 308,
+      "powerups": {
+        "hint": 1,
+        "bomb": 3,
+        "shuffle": 3
+      },
+      "unlocksFeature": "doublebomb",
+      "uniqueFaces": 14,
+      "layout": [
+        "9 7 7 13 1 1 1",
+        "9 7 7 2 4 1 14",
+        "9 12 2 2 4 4 10",
+        "9 11 11 2 4 10 10",
+        "3 11 11 13 12 10 5",
+        "3 3 6 14 8 5 5",
+        "3 6 6 8 8 12 5",
+        "12 6 14 13 8 14 13"
+      ]
+    },
+    {
+      "id": 24,
+      "theme": "fruit_b",
+      "grid": {
+        "cols": 6,
+        "rows": 10
+      },
+      "timerSec": 55,
+      "targetSunReward": 340,
+      "badge": "forest",
+      "badgeCount": 286,
+      "powerups": {
+        "hint": 1,
+        "bomb": 3,
+        "shuffle": 3
+      },
+      "unlocksFeature": null,
+      "uniqueFaces": 10,
+      "layout": [
+        "8 10 7 . 3 1",
+        "7 10 8 . 1 5",
+        "5 2 1 . 5 5",
+        "7 4 1 . 2 2",
+        "8 3 1 . 6 5",
+        "2 9 5 . 2 4",
+        "4 9 1 . 4 9",
+        "3 3 4 . 3 7",
+        "6 8 9 . 10 6",
+        "4 10 2 . 3 6"
+      ]
+    },
+    {
+      "id": 25,
+      "theme": "veges",
+      "grid": {
+        "cols": 7,
+        "rows": 10
+      },
+      "timerSec": 55,
+      "targetSunReward": 350,
+      "badge": "desert",
+      "badgeCount": 265,
+      "powerups": {
+        "hint": 1,
+        "bomb": 3,
+        "shuffle": 3
+      },
+      "unlocksFeature": null,
+      "uniqueFaces": 13,
+      "layout": [
+        ". . . 11 . . .",
+        ". . 6 5 8 . .",
+        ". 1 5 1 13 8 .",
+        "9 7 10 9 12 3 12",
+        "12 4 7 10 13 3 4",
+        "2 8 6 9 11 1 2",
+        "2 11 13 8 7 10 11",
+        "3 10 4 12 3 5 1",
+        ". 13 9 4 5 6 .",
+        ". . 7 2 6 . ."
+      ]
+    },
+    {
+      "id": 26,
+      "theme": "fruit_a",
+      "grid": {
+        "cols": 7,
+        "rows": 10
+      },
+      "timerSec": 55,
+      "targetSunReward": 360,
+      "badge": "tundra",
+      "badgeCount": 247,
+      "powerups": {
+        "hint": 1,
+        "bomb": 3,
+        "shuffle": 3
+      },
+      "unlocksFeature": null,
+      "uniqueFaces": 9,
+      "layout": [
+        "3 3 3 1 1 2 2",
+        "3 . 3 1 1 . 2",
+        "9 . 3 1 1 . 2",
+        "7 . 6 6 6 . 2",
+        "7 . 6 6 9 . 2",
+        "7 . 6 9 4 . 8",
+        "7 . 9 4 4 . 8",
+        "7 . 5 4 4 . 8",
+        "7 . 5 5 4 . 8",
+        "9 5 5 5 9 8 8"
+      ]
+    },
+    {
+      "id": 27,
+      "theme": "birds",
+      "grid": {
+        "cols": 7,
+        "rows": 9
+      },
+      "timerSec": 50,
+      "targetSunReward": 370,
+      "badge": "aurora",
+      "badgeCount": 224,
+      "powerups": {
+        "hint": 1,
+        "bomb": 3,
+        "shuffle": 3
+      },
+      "unlocksFeature": "magnet",
+      "uniqueFaces": 12,
+      "layout": [
+        "10 . 4 . 3 . 7",
+        "6 4 8 3 9 9 11",
+        "5 . 10 . 11 . 8",
+        "6 3 6 12 5 9 2",
+        "10 . 11 . 3 . 11",
+        "5 12 8 5 12 1 7",
+        "1 . 2 . 1 . 10",
+        "6 2 9 4 7 1 4",
+        "12 . 8 . 2 . 7"
+      ]
+    },
+    {
+      "id": 28,
+      "theme": "fruit_b",
+      "grid": {
+        "cols": 6,
+        "rows": 10
+      },
+      "timerSec": 50,
+      "targetSunReward": 380,
+      "badge": "eclipse",
+      "badgeCount": 203,
+      "powerups": {
+        "hint": 1,
+        "bomb": 3,
+        "shuffle": 3
+      },
+      "unlocksFeature": null,
+      "uniqueFaces": 5,
+      "layout": [
+        "4 4 4 2 5 5",
+        "4 . 5 2 . 2",
+        "4 4 2 2 2 2",
+        "4 . 1 2 . 2",
+        "4 1 1 1 5 2",
+        "4 . 1 1 . 5",
+        "4 1 1 1 5 5",
+        "5 . 1 3 . 3",
+        "3 3 3 3 3 3",
+        "5 . 3 3 . 5"
+      ]
+    },
+    {
+      "id": 29,
+      "theme": "veges",
+      "grid": {
+        "cols": 7,
+        "rows": 10
+      },
+      "timerSec": 45,
+      "targetSunReward": 400,
+      "badge": "nebula",
+      "badgeCount": 187,
+      "powerups": {
+        "hint": 1,
+        "bomb": 3,
+        "shuffle": 3
+      },
+      "unlocksFeature": null,
+      "uniqueFaces": 16,
+      "layout": [
+        "10 . 5 . 5 . 10",
+        "7 . 2 5 2 . 7",
+        "2 11 16 13 16 11 2",
+        "6 9 15 7 15 9 6",
+        "15 12 3 13 3 12 15",
+        "1 4 4 5 4 4 1",
+        "11 12 8 7 8 12 11",
+        "16 13 14 3 14 13 16",
+        "6 1 10 3 10 1 6",
+        "9 14 8 . 8 14 9"
+      ]
+    },
+    {
+      "id": 30,
+      "theme": "birds",
+      "grid": {
+        "cols": 7,
+        "rows": 10
+      },
+      "timerSec": 40,
+      "targetSunReward": 500,
+      "badge": "zenith",
+      "badgeCount": 100,
+      "powerups": {
+        "hint": 1,
+        "bomb": 3,
+        "shuffle": 3
+      },
+      "unlocksFeature": "infinite",
+      "uniqueFaces": 17,
+      "layout": [
+        "14 13 4 3 3 3 17",
+        "14 10 4 4 3 9 5",
+        "14 10 10 4 7 5 5",
+        "14 9 10 7 7 15 5",
+        "9 17 16 9 7 15 13",
+        "17 11 16 16 13 15 17",
+        "11 11 12 16 2 15 6",
+        "1 11 12 2 2 6 6",
+        "1 1 12 12 2 8 6",
+        "1 1 1 13 8 8 8"
+      ]
+    }
+  ]
+}

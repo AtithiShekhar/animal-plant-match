@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Legacy / launcher -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="ic_launcher_background">#FFFFFFFF</color>
+
+    <!-- Sunset palette -->
+    <color name="sky_top">#1A1746</color>
+    <color name="sky_mid">#3B2858</color>
+    <color name="sky_bottom">#B25034</color>
+    <color name="mountain">#221C3D</color>
+
+    <!-- Tiles -->
+    <color name="tile_bg">#FFFFFF</color>
+    <color name="tile_shadow">#1F000000</color>
+    <color name="tile_select_border">#1DC1F0</color>
+
+    <!-- Path lines -->
+    <color name="path_green">#5DE34A</color>
+    <color name="path_green_dark">#2BAB1F</color>
+    <color name="path_red">#FF5752</color>
+
+    <!-- Timer -->
+    <color name="timer_fire">#FF7A1A</color>
+    <color name="timer_track">#2F2855</color>
+    <color name="timer_low">#E13D33</color>
+
+    <!-- Buttons -->
+    <color name="button_green">#4FBE3C</color>
+    <color name="button_green_dark">#2F8E22</color>
+    <color name="button_blue">#2EC4E6</color>
+    <color name="button_blue_dark">#1399B7</color>
+
+    <!-- Text -->
+    <color name="text_dark">#2E3552</color>
+    <color name="text_light">#FFFFFFFF</color>
+    <color name="text_muted">#C8C2E6</color>
+
+    <!-- Map nodes -->
+    <color name="locked_node">#5A5470</color>
+    <color name="completed_node">#2EC4E6</color>
+    <color name="current_node">#FF9F3E</color>
+
+    <!-- Popup card -->
+    <color name="popup_card">#FFF6E2</color>
+    <color name="popup_header">#FFD479</color>
+
+    <!-- Accent / chips / panels -->
+    <color name="accent_yellow">#FFC23B</color>
+    <color name="sun_pill">#3B2D5E</color>
+    <color name="panel">#241B45</color>
+    <color name="panel_dark">#1A1340</color>
+</resources>
